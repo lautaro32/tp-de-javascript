@@ -1,0 +1,38 @@
+1)
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Punto 1</title>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    </head>
+    <body>
+        <script>
+	    const nota = prompt("ingresar un numero del 1 al 10");
+		if (nota > 0 && nota <= 10) {
+			if (nota>=0 && nota <3) {
+				alert("nota muy deficiente");
+			}
+			else if (nota>=3 && nota <5) {
+				alert("nota insuficiete");
+			}
+			else if (nota>=5 && nota <6) {
+				alert("nota suficiente");
+			}
+			else if (nota>=6 && nota <7) {
+				alert("nota bien");
+			}
+			else if (nota>=7 && nota <9) {
+				alert("nota notable"); 5
+			}
+			else if (nota >=9) {
+				alert("nota sobresaliente");
+			}
+                    }
+                else{
+                    alert("numero equivocado...ingresar un numero del 1 al 10 ");
+                }
+        </script>
+</body>
+</html>
+2)
