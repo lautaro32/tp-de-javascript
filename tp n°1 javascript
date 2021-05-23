@@ -36,3 +36,206 @@
 </body>
 </html>
 2)
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Punto 2</title>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    </head>
+    <body>
+        <script>
+let cadena = "";
+do {
+    let texto = prompt("Ingresa una cadena de texto");
+        cadena = cadena + "-" + texto;
+} while (confirm("Queres seguir?"));
+document.write(cadena);
+</script>
+</body>
+</html>
+3)
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Punto 3</title>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    </head>
+<body>
+<script>
+let sum = 0;
+do {
+    let num = prompt("ingresar un numero");
+    if (parseInt(num) == num) {
+        num = parseInt(num);
+        sum = sum + num;
+    }
+    else {
+            alert("esto no es numero");
+    }
+} while (confirm ("Quiere continuar?"));
+document.write(sum);
+</script>
+</body>
+</html>
+4)
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Punto 4</title>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    </head>
+    <body>
+<script>
+let rest = 0;
+let carac = "";
+do {
+    let num = prompt("Introduce tu dni");
+    if (parseInt(num) == num) {
+        num = parseInt(num);
+        if (num >= 0 && num <= 99999999) {
+            rest = num % 23;
+             switch (rest) {
+                case 0:
+                    carac = "T";
+                    break;
+                case 1:
+                    carac = "R";
+                    break;
+                case 2:
+                   carac = "W";
+                    break;
+                case 3:
+                    carac = "A";
+                    break;
+                case 4:
+                    carac = "G";
+                    break;
+                case 5:
+                    carac = "M";
+                    break;
+                case 6:
+                    carac = "Y";
+                    break;
+                case 7:
+                    carac = "F";
+                    break;
+                case 8:
+                    carac = "P";
+                    break;
+                case 9:
+                    carac = "D";
+                    break;
+                case 10:
+                    carac = "X";
+                    break;
+                case 11:
+                    carac = "B";
+                    break;
+                case 12:
+                    carac = "N";
+                    break;
+                case 13:
+                    carac = "J";
+                    break;
+                case 14:
+                    carac = "Z";
+                    break;
+                case 15:
+                    carac = "S";
+                    break;
+                case 16:
+                    carac = "Q";
+                    break;
+                case 17:
+                    carac = "V";
+                    break;
+                case 18:
+                    carac = "H";
+                    break;
+                case 19:
+                    carac = "L";
+                    break;
+                case 20:
+                    carac = "C";
+                    break;
+                case 21:
+                   carac = "K";
+                    break;
+                case 22:
+                    carac = "E";
+                    break;
+                default:
+                    alert("numero incorrecto");
+            }
+        }
+        alert("DNI: " + num + ", letra: " + carac);
+    }
+    else{
+            alert("esto no es un numero");
+    }
+} while (confirm ("Quiere continuar?"));
+</script>
+</body>
+</html>
+5)
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> TODO proporcione un título </title>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    </head>
+    <body>
+<script>    
+    let i;
+    let buc;
+    for (i = 1; i <= 30; i++) {
+        for (buc = 0; buc < i; buc++) {
+            document.write(i);
+        }
+        document.write("<br>");
+    }
+</script>
+</body>
+</html>
+6)
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> TODO proporcione un título </title>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    </head>
+    <body>
+<script>
+    
+let num = prompt("ingresar un numero para las repeticiones del 1 al 30");
+
+if (parseInt(num) == num) {
+    
+    if (num > 0 && num <= 30) {
+        let n;
+        let buc;
+
+        for (n = num; n >= 1; n--) {
+
+            for (buc = n; buc >= 1; buc--) {
+                document.write(n);
+            }
+            document.write("<br>");
+        }
+    } 
+    else if(num>30){
+    alert("ingresar un numero del 1 al 30");
+    }
+}
+else {
+  alert("por favor ingresar un numero");
+}
+</script>
+</body>
+</html>
+7)
