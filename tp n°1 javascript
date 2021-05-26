@@ -184,7 +184,7 @@ do {
 <!DOCTYPE html>
 <html>
     <head>
-        <title> TODO proporcione un título </title>
+        <title>Punto 5</title>
         <meta charset = "UTF-8">
         <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
     </head>
@@ -205,7 +205,7 @@ do {
 <!DOCTYPE html>
 <html>
     <head>
-        <title> TODO proporcione un título </title>
+        <title>Punto 6</title>
         <meta charset = "UTF-8">
         <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
     </head>
@@ -239,3 +239,35 @@ else {
 </body>
 </html>
 7)
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Punto 7</title>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    </head>
+    <body>
+<script>
+
+let n, num=500, buc=0;
+for (n = 1; n <= num; n++) {
+    document.write(n);
+    if (n%4 ==0) {
+        document.write("(Multiplo de 4)");
+    }
+    if (n%9 ==0) {
+        document.write("(Multiplo de 9)");
+    }
+    document.write("<br>");
+    if (n % 5 ==0) {
+        document.write("<hr>");
+    }
+    else if(n>500){
+        document.write("<br>");
+        document.write("<hr>");
+    }
+    
+}
+</script>
+</body>
+</html>
